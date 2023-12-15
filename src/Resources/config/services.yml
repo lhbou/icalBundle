@@ -1,4 +1,5 @@
 services:
+    Welp\IcalBundle\Factory\Factory: '@welp_ical.factory'
     welp_ical.factory:
         class: Welp\IcalBundle\Factory\Factory
         calls:
